@@ -1,0 +1,541 @@
+/* NavBar*/
+  /* Formats the navbar links */
+  .nav-link {
+    font-size: 20px;
+  }
+
+  /* Formats the navbar toggle on mobile page */
+  .navbar-toggler {
+    color: white;
+    background: var(--white);
+  }
+
+  /* Search bar formatting */
+    #search-text {
+      margin-right: 10px;
+      width: fit-content;
+      resize: none;
+    }
+
+    #search-text {
+      padding: 2px 1px;
+    }
+
+  /* Formats the logo */
+  #logo {
+    max-height: 75px;
+  }
+/* Body */
+  /* Clean Block titles */
+  /* formats the .block-heading's in .clean-block */
+  .clean-block .block-heading {
+    padding-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  /* This formats the background of the About us page hero */
+  #about-us-background {
+    max-width: 99.9%;
+    color: rgba(0,0,0,0.85);
+  }
+
+  /* Formats the main card */
+  #main-card {
+    background-color: rgba(255,255,255,0.8 );
+  }
+  /* Formats the main card background */
+  #aboutCard {
+    background-image: url("../../assets/img/gallery/Gallery%209.jpg?h=fb8dba668a08e8b51a20568173e11ea1");
+    background-color: #f8f9fa;
+    min-height: 30vh;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    padding: 40px;
+  }
+
+  .card-title {
+    margin-top: 10px;
+  }
+
+
+  /* formats the quick contanct button on the contact page */
+  #QuickContactButton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Formats the card with overivew in gallery page */
+  #galleryCard {
+    background: var(--secondary);
+  }
+
+/* Hero (Index.html) */
+  /* Formats the hero button on the home page */
+  #HeroButton {
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  /* Formats the embeded video that would be present once published and hosted */
+  #embedBackgroundVid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    z-index: 1;
+    transform: translateX(-50%)translateY(-50%);
+    opacity: 0.5;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  /* Formats the background of the background of the video */
+  body .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30vh;
+    width: 100%;
+  }
+
+/* Slider */
+  /* Formats the slider background */
+  #Slider {
+    background: var(--dark);
+  }
+
+  /* Formats the images in the slider */
+  .simple-slider .swiper-slide {
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  /* Formats the slider buttons */
+  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+    width: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  /* makes the slider take up the full width of the html body tag */
+  .slider-container {
+    width: 100%;
+  }
+
+/* Collapse band */
+  /* Formats the Intro para */
+  .team-clean .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  /* Formats the heading */
+  .team-clean h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+  }
+
+  /* Formats the background */
+  .team-clean {
+    background: var(--dark);
+  }
+
+/* Tickets */
+  /* Formats all Svg's that don't have html styles */
+  svg {
+    width: 25px;
+    height: auto;
+  }
+
+  /* Formats the the ticket number pills */
+  #pill {
+    float: right;
+  }
+
+  /* Formats the purchase button */
+  #purchase {
+    margin-top: 20px;
+  }
+
+  /* Formats the price pill in purchase modal */
+  #price {
+    float: right;
+  }
+
+  /* Formats the  select's in modals and filters */
+  .custom-select {
+    max-width: 215px;
+  }
+
+  /* Formats the ticket row's in the ticket sectiion in home page  */
+  #TicketRow {
+    background: var(--secondary);
+    border-radius: 5px;
+    border: 2px solid var(--gray-dark);
+  }
+
+  /* Formats the text in the ticket row */
+  #ticket-place {
+    margin-top: 8px;
+  }
+
+/* Accordians */
+  /* Was a quick way to format repeditive accordians, anything with the id got formated. Its Simple and Pain FREE!  */
+  #Darkify {
+    background: var(--secondary);
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--gray-dark);
+    border-radius: 5px;
+  }
+/* Modals and filters */
+  
+  /* TBH I can't remember what the next 4 do, I wrote them so long ago, I think they format elements in the purchase tickets modal on the home page */
+  #total {
+    margin-top: 10px;
+  }
+
+  #btn-1 {
+    margin-right: 15px;
+  }
+
+  #btn-2 {
+    margin-left: 15px;
+  }
+
+  .btn.btn-info {
+    margin: 5px;
+  }
+
+  .form-control-range {
+    width: 100%;
+    background: #7d8285;
+    outline: none;
+    opacity: 0.7;
+    transition: 0.2s;
+  }
+
+  /* Formats the slider  */
+  #range {
+    width: 215px;
+  }
+
+  /* Formats the min input under slider */
+  #min-2 {
+    width: 75px;
+    float: left;
+  }
+
+  /* Formats the max unput under slider  */
+  #max-2 {
+    width: 75px;
+    float: right;
+  }
+
+  /* Formats the sorting of the store */
+  #sortingSelect {
+    margin: 10px;
+    max-width: 95%;
+  }
+
+  /* Formats the email contact form under each of the people on the contact page */
+  .clean-block.clean-form form {
+    border-top: 2px solid #5ea4f3;
+    background-color: #fff;
+    max-width: 95%;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.075);
+  }
+
+  /* Formats the Social Icons*/
+  .social-icons {
+    color: #313437;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  #Dropdown-social-icons {
+    font-size: 24px;
+    display: inline-block;
+    color: var(--light);
+    margin: 0 10px;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #c8ced7;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 45px;
+  }
+
+  .social-icons i {
+    font-size: 24px;
+    display: inline-block;
+    color: var(--light);
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #c8ced7;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+  }
+
+  .social-icons {
+    background: transparent;
+  }
+
+/* Additional responsive element formatting */
+  @media (max-width:767px) {
+    .team-clean h2 {
+      margin-bottom: 25px;
+      padding-top: 25px;
+      font-size: 24px;
+    }
+  }
+
+  @media (max-width:767px) {
+    .social-icons {
+      padding: 50px 0;
+    }
+  }
+
+  @media (max-width: 4096px) {
+    .simple-slider .swiper-slide {
+      height: 200px;
+    }
+  }
+
+  @media (max-width:577px) {
+    .simple-slider .swiper-slide {
+      height: 300px;
+    }
+  }
+
+  @media (max-width:767px) {
+    .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+      display: none;
+    }
+  }
+
+  @media (max-width:767px) {
+    .contact-clean {
+      padding: 20px 0;
+    }
+  }
+
+  @media (max-width:767px) {
+    .contact-clean form {
+      padding: 30px;
+    }
+  }
+/* Newsletter */
+  /* Code generated by BSS Newsletter template */
+  .newsletter-subscribe {
+    color: #313437;
+    background-color: dark;
+    padding: 50px 0;
+  }
+
+  .newsletter-subscribe p {
+    color: #7d8285;
+    line-height: 1.5;
+  }
+
+  .newsletter-subscribe h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    padding-top: 0;
+    margin-top: 0;
+    color: inherit;
+  }
+
+  .newsletter-subscribe .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 25px;
+  }
+
+  .newsletter-subscribe .intro p {
+    margin-bottom: 35px;
+    opacity: 0.7;
+  }
+
+  .newsletter-subscribe form {
+    justify-content: center;
+  }
+
+  .newsletter-subscribe form .form-control {
+    background: #eff1f4;
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 9px;
+    height: 45px;
+    margin-right: 10px;
+    min-width: 250px;
+  }
+
+  .newsletter-subscribe form .btn {
+    padding: 16px 32px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 1;
+  }
+
+  .newsletter-subscribe form .btn:hover {
+    opacity: 1;
+  }
+
+  .newsletter-subscribe form .btn:active {
+    transform: translateY(1px);
+  }
+
+  .newsletter-subscribe form .btn-primary {
+    background-color: #055ada !important;
+    color: #fff;
+    outline: none !important;
+  }
+
+/* Contact Form */
+  #contact-p {
+    padding-bottom: 10px;
+  }
+
+  /* Contact Form Clean CSS code (Generated by BSS) */
+  .contact-clean {
+    background: #f1f7fc;
+    padding: 80px 0;
+  }
+
+  .contact-clean form {
+    max-width: 480px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 4px;
+    color: #505e6c;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  }
+
+  .contact-clean h2 {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 36px;
+    color: inherit;
+  }
+
+  .contact-clean .form-group:last-child {
+    margin-bottom: 5px;
+  }
+
+  .contact-clean form .form-control {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+    outline: none;
+    color: inherit;
+    padding-left: 12px;
+    height: 42px;
+  }
+
+  .contact-clean form .form-control:focus {
+    border: 1px solid #b2b2b2;
+  }
+
+  .contact-clean form textarea.form-control {
+    min-height: 100px;
+    max-height: 260px;
+    padding-top: 10px;
+    resize: vertical;
+  }
+
+  .contact-clean form .btn {
+    padding: 16px 32px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 1;
+    outline: none !important;
+  }
+
+  .contact-clean form .btn:hover {
+    opacity: 1;
+  }
+
+  .contact-clean form .btn:active {
+    transform: translateY(1px);
+  }
+
+  .contact-clean form .btn-primary {
+    background-color: #055ada !important;
+    margin-top: 15px;
+    color: #fff;
+  }
+
+
+
+
+/* Not sure if this is effecting the page or not */
+#min {
+  display: inline;
+  width: 50px;
+  float: left;
+}
+
+#to {
+  display: inline;
+  padding: 5px;
+  width: 20px;
+}
+
+#max {
+  display: inline;
+  width: 50px;
+  float: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
